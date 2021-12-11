@@ -1,0 +1,469 @@
+2021-12-11 00:36:44.299  INFO 2341 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Starting SpringJsfApplication on Bianka-Airje with PID 2341 (/Users/biankaanagy/Downloads/jsf-spring-boot-integration-master/src/main/webapp/WEB-INF/classes started by biankaanagy in /Users/biankaanagy/Downloads/jsf-spring-boot-integration-master)
+2021-12-11 00:36:44.299  INFO 2341 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : The following profiles are active: dev
+2021-12-11 00:36:44.324  INFO 2341 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40119b03: startup date [Sat Dec 11 00:36:44 CET 2021]; root of context hierarchy
+2021-12-11 00:36:44.858  INFO 2341 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8bbe1a50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-11 00:36:45.051  INFO 2341 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-12-11 00:36:45.064  INFO 2341 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-11 00:36:45.065  INFO 2341 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2021-12-11 00:36:45.070  INFO 2341 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/biankaanagy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-12-11 00:36:45.191  INFO 2341 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-11 00:36:45.201  INFO 2341 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/jsfspring]     : Initializing Spring embedded WebApplicationContext
+2021-12-11 00:36:45.201  INFO 2341 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 877 ms
+2021-12-11 00:36:45.269  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet facesServlet mapped to [*.jsf]
+2021-12-11 00:36:45.270  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-11 00:36:45.270  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2/*]
+2021-12-11 00:36:45.272  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-11 00:36:45.272  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-11 00:36:45.272  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-12-11 00:36:45.272  INFO 2341 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-11 00:36:45.313  INFO 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Initializing Mojarra 2.2.9 (-SNAPSHOT 20141218-0939 https://svn.java.net/svn/mojarra~svn/tags/2.2.9@14083) for context '/jsfspring'
+2021-12-11 00:36:45.378  INFO 2341 --- [localhost-startStop-1] j.e.r.webcontainer.jsf.application       : JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+2021-12-11 00:36:45.389 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 6
+2021-12-11 00:36:45.389 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 7
+2021-12-11 00:36:45.389 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 8
+2021-12-11 00:36:45.389 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 9
+2021-12-11 00:36:45.389 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 70 at position 10
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 70
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 94 at position 73
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 74
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 75
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 95 at position 76
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 23
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 24
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 25
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 26
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 113 at position 27
+2021-12-11 00:36:45.390 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 113
+2021-12-11 00:36:45.391 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -106 at position 116
+2021-12-11 00:36:45.391 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 117
+2021-12-11 00:36:45.391 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 118
+2021-12-11 00:36:45.391 ERROR 2341 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -105 at position 119
+2021-12-11 00:36:45.746  INFO 2341 --- [localhost-startStop-1] .w.PostConstructApplicationEventListener : Running on PrimeFaces 6.1
+2021-12-11 00:36:45.809  INFO 2341 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-11 00:36:45.879  INFO 2341 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-11 00:36:45.910  INFO 2341 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-12-11 00:36:45.920  INFO 2341 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-11 00:36:45.960  INFO 2341 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2021-12-11 00:36:45.961  INFO 2341 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-12-11 00:36:45.967  WARN 2341 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+2021-12-11 00:36:45.970  WARN 2341 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2021-12-11 00:36:45.970  INFO 2341 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-11 00:36:45.971  INFO 2341 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-11 00:36:45.973  INFO 2341 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-12-11 00:36:45.981  INFO 2341 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-11 00:36:45.983 ERROR 2341 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1085) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.jsfspring.curddemo.SpringJsfApplication.main(SpringJsfApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.hibernate.boot.spi.XmlMappingBinderAccess.<init>(XmlMappingBinderAccess.java:43) ~[hibernate-core-5.2.14.Final.jar:5.2.14.Final]
+	at org.hibernate.boot.MetadataSources.<init>(MetadataSources.java:87) ~[hibernate-core-5.2.14.Final.jar:5.2.14.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:209) ~[hibernate-core-5.2.14.Final.jar:5.2.14.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.<init>(EntityManagerFactoryBuilderImpl.java:164) ~[hibernate-core-5.2.14.Final.jar:5.2.14.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:51) ~[spring-orm-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:388) ~[spring-orm-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[na:na]
+	... 32 common frames omitted
+
+2021-12-11 00:41:27.062  INFO 2846 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Starting SpringJsfApplication on Bianka-Airje with PID 2846 (/Users/biankaanagy/Downloads/jsf-spring-boot-integration-master/src/main/webapp/WEB-INF/classes started by biankaanagy in /Users/biankaanagy/Downloads/jsf-spring-boot-integration-master)
+2021-12-11 00:41:27.062  INFO 2846 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : The following profiles are active: dev
+2021-12-11 00:41:27.088  INFO 2846 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a1fb7df: startup date [Sat Dec 11 00:41:27 CET 2021]; root of context hierarchy
+2021-12-11 00:41:27.732  INFO 2846 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$746810d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-11 00:41:27.896  INFO 2846 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-12-11 00:41:27.910  INFO 2846 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-11 00:41:27.910  INFO 2846 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2021-12-11 00:41:27.916  INFO 2846 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/biankaanagy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-12-11 00:41:28.031  INFO 2846 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-11 00:41:28.040  INFO 2846 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/jsfspring]     : Initializing Spring embedded WebApplicationContext
+2021-12-11 00:41:28.041  INFO 2846 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 953 ms
+2021-12-11 00:41:28.114  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet facesServlet mapped to [*.jsf]
+2021-12-11 00:41:28.115  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-11 00:41:28.115  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2/*]
+2021-12-11 00:41:28.117  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-11 00:41:28.118  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-11 00:41:28.118  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-12-11 00:41:28.118  INFO 2846 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-11 00:41:28.197  INFO 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Initializing Mojarra 2.2.9 (-SNAPSHOT 20141218-0939 https://svn.java.net/svn/mojarra~svn/tags/2.2.9@14083) for context '/jsfspring'
+2021-12-11 00:41:28.289  INFO 2846 --- [localhost-startStop-1] j.e.r.webcontainer.jsf.application       : JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+2021-12-11 00:41:28.301 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 6
+2021-12-11 00:41:28.301 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 7
+2021-12-11 00:41:28.301 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 8
+2021-12-11 00:41:28.301 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 9
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 70 at position 10
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 70
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 94 at position 73
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 74
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 75
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 95 at position 76
+2021-12-11 00:41:28.302 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 23
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 24
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 25
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 26
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 113 at position 27
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 113
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -106 at position 116
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 117
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 118
+2021-12-11 00:41:28.304 ERROR 2846 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -105 at position 119
+2021-12-11 00:41:28.660  INFO 2846 --- [localhost-startStop-1] .w.PostConstructApplicationEventListener : Running on PrimeFaces 6.1
+2021-12-11 00:41:28.732  INFO 2846 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-11 00:41:28.819  INFO 2846 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-11 00:41:28.856  INFO 2846 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-12-11 00:41:28.868  INFO 2846 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-11 00:41:28.908  INFO 2846 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2021-12-11 00:41:28.909  INFO 2846 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-12-11 00:41:28.938  INFO 2846 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-12-11 00:41:28.998  INFO 2846 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-11 00:41:29.298  INFO 2846 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@19ae0a11'
+2021-12-11 00:41:29.301  INFO 2846 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-12-11 00:41:29.346  INFO 2846 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 00:41:29.401  INFO 2846 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/Users/biankaanagy/Downloads/jsf-spring-boot-integration-master/src/main/webapp/WEB-INF/classes/data.sql]
+2021-12-11 00:41:29.405  INFO 2846 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/Users/biankaanagy/Downloads/jsf-spring-boot-integration-master/src/main/webapp/WEB-INF/classes/data.sql] in 4 ms.
+2021-12-11 00:41:29.856  INFO 2846 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a1fb7df: startup date [Sat Dec 11 00:41:27 CET 2021]; root of context hierarchy
+2021-12-11 00:41:29.881  WARN 2846 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-11 00:41:29.906  INFO 2846 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-12-11 00:41:29.907  INFO 2846 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-12-11 00:41:29.928  INFO 2846 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 00:41:29.929  INFO 2846 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 00:41:29.953  INFO 2846 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 00:41:30.056  INFO 2846 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-11 00:41:30.095  INFO 2846 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-12-11 00:41:30.095  INFO 2846 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-12-11 00:41:30.098  INFO 2846 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-12-11 00:41:30.122  INFO 2846 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path '/jsfspring'
+2021-12-11 00:41:30.124  INFO 2846 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Started SpringJsfApplication in 3.234 seconds (JVM running for 3.472)
+2021-12-11 00:41:53.851  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 00:41:53.852  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.853  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 00:41:53.854  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.854  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 00:41:53.854  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.854  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 00:41:53.854  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:41:53.854  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 00:42:35.844  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsObject: com.jsfspring.curddemo.service.impl.TaxiServiceImpl@3d1c5afb
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.921  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 00:42:35.922  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:42:35.922  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:43:35.644  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.645  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:35.646  INFO 2846 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:43:46.388  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsObject: com.jsfspring.curddemo.service.impl.TaxiServiceImpl@3d1c5afb
+2021-12-11 00:43:46.426  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.427  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 00:43:46.428  INFO 2846 --- [http-nio-9090-exec-6] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 00:47:56.616  INFO 2846 --- [Thread-10] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a1fb7df: startup date [Sat Dec 11 00:41:27 CET 2021]; root of context hierarchy
+2021-12-11 00:47:56.625  INFO 2846 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-12-11 00:47:56.626  INFO 2846 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-12-11 00:47:56.628  INFO 2846 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 00:47:56.628  INFO 2846 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2021-12-11 00:47:56.635  WARN 2846 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2021-12-11 00:47:56.636  INFO 2846 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-11 00:47:56.640  INFO 2846 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-11 17:22:03.236  INFO 1020 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Starting SpringJsfApplication on Bianka-Airje with PID 1020 (/Users/biankaanagy/Documents/webfejlesztes-beadando/src/main/webapp/WEB-INF/classes started by biankaanagy in /Users/biankaanagy/Documents/webfejlesztes-beadando)
+2021-12-11 17:22:03.237  INFO 1020 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : The following profiles are active: dev
+2021-12-11 17:22:03.261  INFO 1020 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@318f0f9b: startup date [Sat Dec 11 17:22:03 CET 2021]; root of context hierarchy
+2021-12-11 17:22:03.912  INFO 1020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a512bd0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-11 17:22:04.093  INFO 1020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-12-11 17:22:04.106  INFO 1020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-11 17:22:04.106  INFO 1020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2021-12-11 17:22:04.112  INFO 1020 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/biankaanagy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-12-11 17:22:04.222  INFO 1020 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-11 17:22:04.231  INFO 1020 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/jsfspring]     : Initializing Spring embedded WebApplicationContext
+2021-12-11 17:22:04.232  INFO 1020 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 971 ms
+2021-12-11 17:22:04.320  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet facesServlet mapped to [*.jsf]
+2021-12-11 17:22:04.321  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-11 17:22:04.321  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2/*]
+2021-12-11 17:22:04.324  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-11 17:22:04.324  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-11 17:22:04.324  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-12-11 17:22:04.324  INFO 1020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-11 17:22:04.369  INFO 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Initializing Mojarra 2.2.9 (-SNAPSHOT 20141218-0939 https://svn.java.net/svn/mojarra~svn/tags/2.2.9@14083) for context '/jsfspring'
+2021-12-11 17:22:04.522  INFO 1020 --- [localhost-startStop-1] j.e.r.webcontainer.jsf.application       : JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+2021-12-11 17:22:04.534 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 6
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 7
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 8
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 9
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 70 at position 10
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 70
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 94 at position 73
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 74
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 75
+2021-12-11 17:22:04.535 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 95 at position 76
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 23
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 24
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 25
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 26
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 113 at position 27
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 113
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -106 at position 116
+2021-12-11 17:22:04.536 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 117
+2021-12-11 17:22:04.537 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 118
+2021-12-11 17:22:04.537 ERROR 1020 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -105 at position 119
+2021-12-11 17:22:04.884  INFO 1020 --- [localhost-startStop-1] .w.PostConstructApplicationEventListener : Running on PrimeFaces 6.1
+2021-12-11 17:22:04.962  INFO 1020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-11 17:22:05.050  INFO 1020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-11 17:22:05.086  INFO 1020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-12-11 17:22:05.101  INFO 1020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-11 17:22:05.166  INFO 1020 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2021-12-11 17:22:05.167  INFO 1020 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-12-11 17:22:05.193  INFO 1020 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-12-11 17:22:05.264  INFO 1020 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-11 17:22:05.581  INFO 1020 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@49bd034'
+2021-12-11 17:22:05.584  INFO 1020 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-12-11 17:22:05.628  INFO 1020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 17:22:05.684  INFO 1020 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/Users/biankaanagy/Documents/webfejlesztes-beadando/src/main/webapp/WEB-INF/classes/data.sql]
+2021-12-11 17:22:05.687  INFO 1020 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/Users/biankaanagy/Documents/webfejlesztes-beadando/src/main/webapp/WEB-INF/classes/data.sql] in 3 ms.
+2021-12-11 17:22:06.134  INFO 1020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@318f0f9b: startup date [Sat Dec 11 17:22:03 CET 2021]; root of context hierarchy
+2021-12-11 17:22:06.157  WARN 1020 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-11 17:22:06.188  INFO 1020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-12-11 17:22:06.189  INFO 1020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-12-11 17:22:06.212  INFO 1020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 17:22:06.212  INFO 1020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 17:22:06.242  INFO 1020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 17:22:06.347  INFO 1020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-11 17:22:06.382  INFO 1020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-12-11 17:22:06.383  INFO 1020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-12-11 17:22:06.386  INFO 1020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-12-11 17:22:06.413  INFO 1020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path '/jsfspring'
+2021-12-11 17:22:06.414  INFO 1020 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Started SpringJsfApplication in 3.359 seconds (JVM running for 3.592)
+2021-12-11 17:22:26.514  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 17:22:26.515  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:22:26.516  INFO 1020 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 17:23:09.723  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsObject: com.jsfspring.curddemo.service.impl.TaxiServiceImpl@10ded2fd
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 17:23:09.814  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:23:09.816  INFO 1020 --- [http-nio-9090-exec-4] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 17:25:57.344  INFO 1020 --- [Thread-10] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@318f0f9b: startup date [Sat Dec 11 17:22:03 CET 2021]; root of context hierarchy
+2021-12-11 17:25:57.357  INFO 1020 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-12-11 17:25:57.359  INFO 1020 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-12-11 17:25:57.361  INFO 1020 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 17:25:57.363  INFO 1020 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2021-12-11 17:25:57.371  WARN 1020 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2021-12-11 17:25:57.371  INFO 1020 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-11 17:25:57.375  INFO 1020 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-11 17:26:05.783  INFO 1078 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Starting SpringJsfApplication on Bianka-Airje with PID 1078 (/Users/biankaanagy/Documents/webfejlesztes-beadando/src/main/webapp/WEB-INF/classes started by biankaanagy in /Users/biankaanagy/Documents/webfejlesztes-beadando)
+2021-12-11 17:26:05.783  INFO 1078 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : The following profiles are active: dev
+2021-12-11 17:26:05.810  INFO 1078 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2edabcd2: startup date [Sat Dec 11 17:26:05 CET 2021]; root of context hierarchy
+2021-12-11 17:26:06.423  INFO 1078 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b08d3c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-11 17:26:06.584  INFO 1078 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-12-11 17:26:06.597  INFO 1078 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-11 17:26:06.598  INFO 1078 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2021-12-11 17:26:06.604  INFO 1078 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/biankaanagy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-12-11 17:26:06.735  INFO 1078 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-11 17:26:06.741  INFO 1078 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/jsfspring]     : Initializing Spring embedded WebApplicationContext
+2021-12-11 17:26:06.741  INFO 1078 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 931 ms
+2021-12-11 17:26:06.823  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet facesServlet mapped to [*.jsf]
+2021-12-11 17:26:06.824  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-11 17:26:06.825  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2/*]
+2021-12-11 17:26:06.826  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-11 17:26:06.826  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-11 17:26:06.826  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-12-11 17:26:06.826  INFO 1078 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-11 17:26:06.861  INFO 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Initializing Mojarra 2.2.9 (-SNAPSHOT 20141218-0939 https://svn.java.net/svn/mojarra~svn/tags/2.2.9@14083) for context '/jsfspring'
+2021-12-11 17:26:07.003  INFO 1078 --- [localhost-startStop-1] j.e.r.webcontainer.jsf.application       : JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 6
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 7
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 8
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 9
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 70 at position 10
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 70
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 94 at position 73
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 74
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 75
+2021-12-11 17:26:07.015 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 95 at position 76
+2021-12-11 17:26:07.016 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 18 at position 23
+2021-12-11 17:26:07.017 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 24
+2021-12-11 17:26:07.017 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 25
+2021-12-11 17:26:07.017 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 26
+2021-12-11 17:26:07.017 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 113 at position 27
+2021-12-11 17:26:07.018 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 15 at position 113
+2021-12-11 17:26:07.018 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -106 at position 116
+2021-12-11 17:26:07.018 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 16 at position 117
+2021-12-11 17:26:07.018 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool 0 at position 118
+2021-12-11 17:26:07.018 ERROR 1078 --- [localhost-startStop-1] j.e.resource.webcontainer.jsf.config     : Unknow type constant pool -105 at position 119
+2021-12-11 17:26:07.359  INFO 1078 --- [localhost-startStop-1] .w.PostConstructApplicationEventListener : Running on PrimeFaces 6.1
+2021-12-11 17:26:07.436  INFO 1078 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-11 17:26:07.517  INFO 1078 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-11 17:26:07.557  INFO 1078 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-12-11 17:26:07.566  INFO 1078 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-11 17:26:07.614  INFO 1078 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2021-12-11 17:26:07.614  INFO 1078 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-12-11 17:26:07.635  INFO 1078 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-12-11 17:26:07.690  INFO 1078 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-11 17:26:07.986  INFO 1078 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@138e02ee'
+2021-12-11 17:26:07.989  INFO 1078 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-12-11 17:26:08.034  INFO 1078 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 17:26:08.090  INFO 1078 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/Users/biankaanagy/Documents/webfejlesztes-beadando/src/main/webapp/WEB-INF/classes/data.sql]
+2021-12-11 17:26:08.094  INFO 1078 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/Users/biankaanagy/Documents/webfejlesztes-beadando/src/main/webapp/WEB-INF/classes/data.sql] in 4 ms.
+2021-12-11 17:26:08.538  INFO 1078 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2edabcd2: startup date [Sat Dec 11 17:26:05 CET 2021]; root of context hierarchy
+2021-12-11 17:26:08.562  WARN 1078 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-11 17:26:08.599  INFO 1078 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-12-11 17:26:08.600  INFO 1078 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-12-11 17:26:08.627  INFO 1078 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 17:26:08.627  INFO 1078 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 17:26:08.652  INFO 1078 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-12-11 17:26:08.749  INFO 1078 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-11 17:26:08.785  INFO 1078 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-12-11 17:26:08.786  INFO 1078 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-12-11 17:26:08.790  INFO 1078 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-12-11 17:26:08.818  INFO 1078 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path '/jsfspring'
+2021-12-11 17:26:08.820  INFO 1078 --- [restartedMain] c.j.curddemo.SpringJsfApplication        : Started SpringJsfApplication in 3.197 seconds (JVM running for 3.398)
+2021-12-11 17:26:13.438  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: City Taxi
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Fonix Taxi
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Kapusi-TAXI
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.439  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Radio Taxi
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Tele 7 Taxi
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Lajosmizse Taxi Kft.
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Taxi Marghita
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Heldig-Tax Kft.
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString obj class: com.jsfspring.curddemo.uito.TaxiUITO
+2021-12-11 17:26:13.440  INFO 1078 --- [http-nio-9090-exec-1] c.j.curddemo.utills.TaxiConverter        : getAsString def name: Debreceni Soforszolgalat
+2021-12-11 17:26:21.548  INFO 1078 --- [Thread-10] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2edabcd2: startup date [Sat Dec 11 17:26:05 CET 2021]; root of context hierarchy
+2021-12-11 17:26:21.552  INFO 1078 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-12-11 17:26:21.553  INFO 1078 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-12-11 17:26:21.555  INFO 1078 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 17:26:21.555  INFO 1078 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2021-12-11 17:26:21.562  WARN 1078 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2021-12-11 17:26:21.562  INFO 1078 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-11 17:26:21.566  INFO 1078 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

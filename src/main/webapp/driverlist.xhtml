@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:sec="http://www.springframework.org/security/tags">
+<ui:composition template="layout.xhtml">
+	<ui:define name="content">
+		<h:form id="driverForm">
+			<p:panel header="Driver Info" id="driverInfoPnl">
+				<h:panelGrid columns="2">
+					<p:outputLabel for="name" value="Driver Name: " />
+					<p:inputText id="name" size="40"
+						value="#{driverController.driverUiTO.driverName}" required="true"
+						requiredMessage="Please enter driver name " />
+					<p:outputLabel for="driverpassword" value="Password: " />
+					<p:password id="driverpassword" size="40"
+						value="#{driverController.driverUiTO.password}" />
+					<p:outputLabel for="driveremail" value="E-Mail : " />
+					<p:inputText id="driveremail"
+						value="#{driverController.driverUiTO.emailId}" size="40"
+						required="true" label="Email Address">
+
+						<f:validator validatorId="customEmailValidator" />
+					</p:inputText>
+					<p:outputLabel for="driveraddres" value="Address " />
+					<p:inputTextarea id="driveraddres" rows="4" cols="50"
+						value="#{driverController.driverUiTO.address1}" />
+					<p:outputLabel for="driverdept" value="Taxi " />
+
+					<p:selectOneMenu id="driverdept"
+						value="#{driverController.driverUiTO.taxiUITO}"
+						style="width:150px" converter="#{taxiConverter}">
+						<f:selectItems value="#{driverController.taxiUiToList}"
+							var="taxiUITO" itemLabel="#{taxiUITO.taxiName}"
+							itemValue="#{taxiUITO}" />
+
+					</p:selectOneMenu>
+					<h:commandButton value="#{driverController.actionLabel}"
+						action="#{driverController.doSaveInfoDriver}">
+						<f:ajax execute="driverForm" render="driverlist driverInfoPnl" />
+					</h:commandButton>
+				</h:panelGrid>
+			</p:panel>
+			<p:panel header="Driver List" id="driverlist">
+				<p:dataTable id="table" var="driver"
+					value="#{driverController.driverUiToList}">
+					<p:column>
+						<f:facet name="header"># Driver Id</f:facet>
+						<h:outputText value="#{driver.driverId}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">Name</f:facet>
+						<h:outputText value="#{driver.driverName}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">Address </f:facet>
+						<h:outputText value="#{driver.address1}">
+						</h:outputText>
+					</p:column>
+					<p:column>
+						<f:facet name="header">Email </f:facet>
+						<h:outputText value="#{driver.emailId}">
+						</h:outputText>
+					</p:column>
+					<p:column>
+						<f:facet name="header">Taxi </f:facet>
+						<h:outputText value="#{driver.taxiUITO.taxiName}" />
+					</p:column>
+					<p:column id="action">
+						<f:facet name="header">Action</f:facet>
+						<h:commandLink value="Edit"
+							action="#{driverController.editDriver(driver)}">
+							<f:ajax execute="action" render="driverForm" />
+						</h:commandLink> /
+						  <sec:authorize access="hasRole('ROLE_ADMIN')">
+							<h:commandLink value="Delete"
+								action="#{driverController.deleteDriver(driver)}">
+								<f:ajax execute="action" render="table" />
+							</h:commandLink>
+						</sec:authorize>
+					</p:column>
+
+				</p:dataTable>
+			</p:panel>
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>
